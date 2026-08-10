@@ -207,7 +207,9 @@ function icsParse(t){
 function isBusy(vId,s){var r=CONFIG.busy[vId]||[];for(var i=0;i<r.length;i++){if(s>=r[i][0]&&s<=r[i][1])return true}return false}
 function rangeBusy(vId,a,b){var d=new Date(a+"T00:00:00"),end=new Date(b+"T00:00:00");while(d<end){if(isBusy(vId,iso(d)))return true;d.setDate(d.getDate()+1)}return false}
 var ICAL_PROXIES=[
-  function(u){return "/.netlify/functions/ical.js?url="+encodeURIComponent(u)}
+  function(u){return "/.netlify/functions/ical.js?url="+encodeURIComponent(u)},
+  function(u){return "https://api.allorigins.win/raw?url="+encodeURIComponent(u)},
+  function(u){return "https://api.codetabs.com/v1/proxy?quest="+encodeURIComponent(u)}
 ];
 function loadBusy(vId,done){
   var urls=CONFIG.ical[vId]||[],left=urls.length;
