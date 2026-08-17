@@ -44,7 +44,7 @@ var I18N = {
     q3: "How fast is the WiFi at Massarossa?",
     a3: "500+ Mbps — enough for remote work, 4K streaming and video calls in every room.",
     q4: "What are the house rules and extra charges?",
-    a4: "Check-in 14:00-22:00, check-out 11:00-12:00. Deposit ฿5,000 cash. Electricity ฿6/kWh. Cleaning ฿2,000. Tax 7%. Extra guest ฿500/night. Pets ฿500/night (max 2, ≤10 kg).",
+    a4: "Check-in 14:00-22:00, check-out 11:00-12:00. Deposit ฿5,000 cash. Electricity ฿6/kWh. Housekeeping fee ฿2,000. Tax 7%. Extra guest ฿500/night. Pets ฿500/night (max 2, ≤10 kg).",
     c_k: "Contacts", c_t: "Get in Touch",
     c_sub: "WhatsApp is the fastest way to book or ask anything.",
     c_addr: "Address", c_hours: "Concierge 24/7",
@@ -70,7 +70,7 @@ var I18N = {
     am_karaoke: "Karaoke", am_billiards: "Billiards", am_slide: "Water Slide",
     am_bbq: "BBQ", am_pool: "Pool", am_kitchen: "Kitchen", am_parking: "Parking", am_spa: "SPA Bath",
     disc_btn: "🎉 Get 7% discount", disc_chk: "I subscribed on Facebook & sent DISCOUNT",
-    clean_lbl: "Cleaning", tax_lbl: "Tax 7%", disc_lbl: "−7% discount",
+    clean_lbl: "Housekeeping fee", tax_lbl: "Tax 7%", disc_lbl: "−7% discount",
     season_low: "Low season (20 Apr – 15 Nov)", season_high: "High season (16 Nov – 19 Apr)",
     season_ny: "New Year (24 Dec – 5 Jan)", weekend: "weekend", weekday: "weekday"
   },
